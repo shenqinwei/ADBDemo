@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingVertical="25dp"
+    android:paddingHorizontal="25dp"
+   >
+
+    <EditText
+        android:id="@+id/activity_adb_run_cmd_et"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="cmd 执行框"/>
+
+    <Button
+        android:id="@+id/activity_adb_run_cmd_bt"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="运行adb命令"
+        android:textAllCaps="false"
+        android:background="@color/purple_200"/>
+
+</LinearLayout>
+
