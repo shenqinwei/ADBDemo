@@ -1,5 +1,6 @@
 package com.zybang.testadbdemo;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import com.google.android.material.snackbar.Snackbar;
@@ -46,9 +47,12 @@ public class MainActivity extends AppCompatActivity {
     }
     private void clickEvent() {
         runCmdBt.setOnClickListener(view -> {
-            result = runCmd(cmdEt.getText().toString());
+            /*result = runCmd(cmdEt.getText().toString());
             showToast();
-            Log.d(TAG, "run result: " + result);
+            Log.d(TAG, "run result: " + result);*/
+            Intent intent = new Intent(this,TestCmdActivity.class);
+            startActivity(intent);
+
         });
     }
 
@@ -63,13 +67,10 @@ public class MainActivity extends AppCompatActivity {
 
     private String runCmd(String cmd) {
         Log.d(TAG, "runCmd: " + cmd);
-        if (TextUtils.isEmpty(cmd) || cmd.length() < 11) {
+        if (TextUtils.isEmpty(cmd) ) {
             return "";
         }
-        String cmdHead = cmd.substring(0, 9);
-        if (!"adb shell".equals(cmdHead)) {
-            return "";
-        }
+
         return execRootCmd(cmd);
     }
 

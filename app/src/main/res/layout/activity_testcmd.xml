@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingVertical="25dp"
+    android:paddingHorizontal="25dp"
+   >
+    <Button
+        android:id="@+id/btn_su"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="执行su"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="韦根26"/>
+   <Button
+       android:id="@+id/btn_send26"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="发送韦根26"/>
+    <Button
+       android:id="@+id/btn_look26"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="查看韦根26发送结果"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="韦根34"/>
+   <Button
+       android:id="@+id/btn_send34"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="发送韦根34"/>
+    <Button
+       android:id="@+id/btn_look34"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="查看韦根34发送结果"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="韦根36"/>
+   <Button
+       android:id="@+id/btn_send36"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="发送韦根36"/>
+    <Button
+       android:id="@+id/btn_look36"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="查看韦根36发送结果"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="韦根66"/>
+   <Button
+       android:id="@+id/btn_send66"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="发送韦根66"/>
+    <Button
+       android:id="@+id/btn_look66"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="查看韦根66发送结果"/>
+
+</LinearLayout>
+
